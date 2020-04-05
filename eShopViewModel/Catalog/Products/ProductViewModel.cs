@@ -8,7 +8,7 @@ namespace eShopViewModel.Catalog.Products
     {
         public int Id { get; set; }
         public decimal Price { get; set; }
-        public decimal ProginalPrice { get; set; }
+        public decimal OginalPrice { get; set; }
         public int Stock { get; set; }
         public int ViewCount { get; set; }
         public DateTime DateCreated { get; set; }
@@ -18,7 +18,7 @@ namespace eShopViewModel.Catalog.Products
         public string SeoDescription { get; set; }
         public string SeoAlias { get; set; }
         public string SeoTitle { get; set; }
-        public string Language { get; set; }
+        public string LanguageId { get; set; }
 
 
     }

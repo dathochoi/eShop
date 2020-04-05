@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace eShopApplication.Catalog.Products
 {
-    interface IPublicProductService
+    public interface IPublicProductService
     {
         Task<PagedResult<ProductViewModel>> GetAllByCategoryId(GetPublicProductPagingRequest request);
         Task<List<ProductViewModel>> GetAll();
