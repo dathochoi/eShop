@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eShopViewModel.Catalog.Products
+namespace eShopViewModel.Catalog.ProductImages
 {
     public class ProductImageViewModel
     {
@@ -10,5 +10,12 @@ namespace eShopViewModel.Catalog.Products
         public string FilePath { get; set; }
         public bool IsDefault { get; set; }
         public long FileSize { get; set; }
+
+        public int ProductId { get; set; }
+        public string ImagePath { get; set; }
+        public string Caption { get; set; }
+        public DateTime DateCreate {get;set;}
+        public int SortOrder { get; set; }
+       
     }
 }
